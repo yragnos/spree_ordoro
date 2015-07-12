@@ -12,8 +12,8 @@ Basic Gem to update Ordoro Quantity on hand and post Spree Orders into Ordoro.
 
 Spree API - 
 
-get proucts curl --user 'myusername:mypassword' https://api.ordoro.com/product/?status=active
+get products curl --user 'myusername:mypassword' https://api.ordoro.com/product/?status=active
 
-
+See https://support.ordoro.com/ordoro-api-introduction/
 
 
