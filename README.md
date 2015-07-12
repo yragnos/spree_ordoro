@@ -1,16 +1,19 @@
 # spree_ordoro
-Transfer Spree Orders into Ordoro
 
-A basic gem that will pull orders from Spree and create order in Ordoro.
+Spree Ordoro
+============
+
+Synchronize Spree Orders and Inventory Quantities.
+
+ * Pull orders from Spree into Ordoro
+ * Update quantity on hand in Spree
+ 
+Basic Gem to update Ordoro Quantity on hand and post Spree Orders into Ordoro.
+
+Spree API - 
+
+get proucts curl --user 'myusername:mypassword' https://api.ordoro.com/product/?status=active
 
 
 
-Version 1 - Pull order into CSV compliant with Ordoro.
-
-Version 1 will extract Orders from Spree using the Spree API and generate a simple CSV file for import into Ordoro.
-
-
-Version 2 - Use Ordoro API to get orders from Spree.
-
-Provide a direct API pull from Spree into Ordoro.
 
