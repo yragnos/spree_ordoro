@@ -3,16 +3,15 @@
 Spree Ordoro
 ============
 
-Synchronize Spree Orders and Inventory Quantities.
+Synchronize Spree Orders with Ordoro through Eventory.io
 
- * Pull orders from Spree into Ordoro
- * Update quantity on hand in Spree
+ * Get orders from Spree into Eventory.io 
+ * Put orders from Eventory.io into Ordoro
+ * Get Shipment tracking information from Ordoro (external shipping Api's)
+ * Put shipment tracking information on Spree
+ * Update quantity on hand in Spree from Eventory.io
  
-Basic Gem to update Ordoro Quantity on hand and post Spree Orders into Ordoro.
-
 Spree API - 
-
-get products curl --user 'myusername:mypassword' https://api.ordoro.com/product/?status=active
 
 See https://support.ordoro.com/ordoro-api-introduction/
 
